@@ -1,0 +1,2 @@
+[Wed Mar 21 00:23:34.357021 2018] [mpm_event:notice] [pid 1081:tid 140374259554176] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Wed Mar 21 00:23:34.357175 2018] [core:notice] [pid 1081:tid 140374259554176] AH00094: Command line: '/usr/sbin/apache2'
