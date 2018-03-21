@@ -1,0 +1,43 @@
+<!-- LOGIN PAGE -->
+<!-- By: Amir Siddavatam -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scheduler | Log In</title>
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main_div" id="login">
+		<h3>Log In</h3>
+		<form>
+			<input type="text" name="email" placeholder="Email" id="email_field">
+			<input type="password" name="password" placeholder="Password" id="password_field">
+		</form>
+		<button onclick="logIn()">Log In</button>
+	</div>
+
+
+	<!-- FIREBASE -->
+
+	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyBb60vOuyCW2HwS-Js5FGeueNQCYpLFS6k",
+	    authDomain: "web-test-b1bc6.firebaseapp.com",
+	    databaseURL: "https://web-test-b1bc6.firebaseio.com",
+	    projectId: "web-test-b1bc6",
+	    storageBucket: "web-test-b1bc6.appspot.com",
+	    messagingSenderId: "266394847811"
+	  };
+	  firebase.initializeApp(config);
+	</script> 
+	<script src="app.js"></script>
+</body>
+</html>
